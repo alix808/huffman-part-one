@@ -53,7 +53,7 @@ void Execute_sort(int size, char * filename)
     Init_array(size);
     Read_file(filename);
     Sort_array(size);
-    Print_array(size);
+    Print_array();
 }
 
 void Clean_array()
